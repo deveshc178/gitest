@@ -1,0 +1,24 @@
+{
+  "name": "gitest",
+  "version": "1.0.0",
+  "description": "second attempt to create a live server",
+  "main": "index.js",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deveshc178/gitest.git"
+  },
+  "author": "devesh mittal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deveshc178/gitest/issues"
+  },
+  "homepage": "https://github.com/deveshc178/gitest#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
